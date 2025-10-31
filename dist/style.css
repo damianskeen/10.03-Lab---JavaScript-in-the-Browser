@@ -1,0 +1,76 @@
+body 
+{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 28px;
+  color: #1a1a1a;
+}
+
+h1 
+{
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+/* making fieldsets broad and with thin border */
+fieldset 
+{
+  border: 2px solid #666;
+  padding: 12px 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* makes legends slightly inset and aligned like the sample */
+legend 
+{
+  padding: 0 6px;
+  font-weight: normal;
+}
+
+/* each group must be wrapped by <p> */
+p 
+{
+  margin: 18px 0; /*spaces, then aligns to the left similar to the pic*/
+}
+
+/* label spacing so the radio/checkbox text sits nicely */
+label 
+{
+  display: inline-block;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/* the player list area box */
+.players-box 
+{
+  height: 160px;
+  border: none;          
+  padding-left: 6px;
+  overflow: auto;
+}
+
+/* formatting for player line (indentation) */
+.players-list label 
+{
+  display: block;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* submit style based on example */
+input[type="submit"] 
+{
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* the ourput text for after submit button is pressed */
+#output 
+{
+  margin-top: 20px;
+  font-size: 16px;
+  color: #000;
+}
